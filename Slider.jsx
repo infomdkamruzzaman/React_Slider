@@ -54,3 +54,63 @@ const Slider = () => {
 }
 
 export default Slider
+
+
+
+
+
+// for Global css 
+
+/*  Scrollbar change all scrollbar  */
+/* ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #23db3f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+} */
+
+
+/* Custom scrollbar only for specific class */
+
+// .custom-scrollbar::-webkit-scrollbar {
+//     width: 5px;
+//     height: 5px;
+//   }
+  
+//   .custom-scrollbar::-webkit-scrollbar-track {
+//     background: #f1f1f1;
+//     border-radius: 10px;
+//   }
+  
+//   .custom-scrollbar::-webkit-scrollbar-thumb {
+//     background-color: #23db3f;
+//     border-radius: 10px;
+//     transition: background-color 0.3s ease-in-out;
+//   }
+  
+//   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+//     box-shadow: 0 0 10px rgba(0, 255, 10, 0.5); /* Glow effect */
+//   } 
+  
+//   .custom-placeholder::placeholder {
+//     color: white; /* Customize placeholder color if needed */
+//   }
+  
+  
+//   .custom-cursor {
+//     position: fixed;
+//     pointer-events: none; /* Prevent interaction with the cursor */
+//     border: 2px solid #fff; /* Optional border for visibility */
+//     z-index: 9999; /* Ensure it appears above other elements */
+//   }
+  
